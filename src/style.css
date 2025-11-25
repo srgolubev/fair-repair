@@ -730,6 +730,17 @@ ul {
   color: var(--accent-color);
 }
 
+.footer-col a[href^="tel:"],
+.footer-col a[href^="mailto:"] {
+  display: inline;
+  text-decoration: none;
+}
+
+.footer-col a[href^="tel:"]:hover,
+.footer-col a[href^="mailto:"]:hover {
+  text-decoration: underline;
+}
+
 .social-links {
   display: flex;
   gap: var(--spacing-md);
